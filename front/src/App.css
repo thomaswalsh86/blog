@@ -1,0 +1,102 @@
+h1{
+  color: #EFEBA7;
+}
+h2{
+  color: #EFEBA7;
+}
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: -250px; 
+  width: 250px;
+  height: 100vh;
+  background-color: #EFEBA7;
+  transition: right 0.3s ease;
+  z-index: 1000;
+  border-radius: 10px 0 0 10px;
+}
+
+.sidebar.open {
+  right: 0; 
+}
+
+.menu-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  background-color: #EFEBA7;
+  color: #243C2F;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.menu-button:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: 0.3s ease-in-out;
+}
+
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 60px 0 0 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin: 15px 20px;
+}
+
+.sidebar a {
+  display: block;
+  color: #243C2F;
+  padding: 12px 20px;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+.sidebar a:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: 0.3s ease-in-out;
+}
+
+.close-btn {
+  top: 15px;
+  right: 10%;
+  color: #243C2F;
+  font-size: 24px;
+  cursor: pointer;
+}
+body{
+  background-color: #243C2F;
+}
+
+.main-buttons-container{
+  display: flex;
+  justify-content: space-between;
+  margin: 15% 30%;
+  
+}
+.item{
+  display: flex;
+  justify-content: space-between;
+  padding:10px 20px;
+  border: none;
+  border-radius: 10px;
+  margin:5px;
+  color: #243C2F;
+  background-color:#EFEBA7;
+  font-weight: 800;
+}
+.item:hover{
+background-color: #cbc88f;
+}
+
+.client{
+  color: #EFEBA7;
+}
